@@ -38,24 +38,3 @@ Run the application:
 ```bash
 dotnet run
 ```
-
-## Tests
-
-```bash
-dotnet test
-```
-
-## Project structure
-
-```
-CustomerManagement/
-├── src/
-│   └── CustomerManagement/     # Application code
-├── tests/
-│   └── CustomerManagement.Tests/
-└── README.md
-```
-
-## License
-
-Add license information here.
