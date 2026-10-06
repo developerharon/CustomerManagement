@@ -5,7 +5,7 @@ A .NET 10 application for managing customer records.
 ## Requirements
 
 - [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
-- A database server (configured via connection string)
+- MSSQL Server (configured via connection string)
 
 ## Getting started
 
@@ -27,7 +27,7 @@ Set the connection string in `appsettings.Development.json`:
 }
 ```
 
-Apply migrations (if using EF Core):
+Apply migrations:
 
 ```bash
 dotnet ef database update
